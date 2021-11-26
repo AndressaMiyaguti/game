@@ -9,17 +9,13 @@ export const Options = styled.div`
   filter: brightness(0.9) contrast(1.1) saturate(1.7);
   width: 100%;
   height: 25rem;
-  justify-content:center;
+  justify-content: center;
 
-
-  @media(max-width: 800px){
-    justify-content:left;
+  @media (max-width: 800px) {
+    justify-content: left;
     align-items: flex-start;
-    
   }
 `;
-
- 
 
 export const OptionsText = styled.ul`
   background-color: #305d8a;
@@ -30,11 +26,10 @@ export const OptionsText = styled.ul`
   align-items: center;
   justify-content: space-between;
   padding: 0 1rem;
-  margin:2rem 3rem;
+  margin: 2rem 3rem;
   border-radius: 3px;
 
-
-  @media(max-width: 800px){
+  @media (max-width: 800px) {
     flex-direction: column-reverse;
     text-align: left;
     width: 250px;
@@ -43,12 +38,10 @@ export const OptionsText = styled.ul`
     align-items: flex-start;
     margin: 0;
     background-color: transparent;
-    
   }
 `;
 export const ListItem = styled.li`
-
-height: 2rem;
+  height: 2rem;
   list-style: none;
   transition: 200ms;
   display: flex;
@@ -59,7 +52,6 @@ height: 2rem;
   text-shadow: 0px 2px 3px rgb(0 0 0 / 30%);
 `;
 export const Span = styled.span`
-
   line-height: 34px;
 `;
 export const LinkedPage = styled.a`
@@ -67,8 +59,8 @@ export const LinkedPage = styled.a`
   cursor: pointer;
 `;
 export const ImgList = styled.img`
-width: 25px;
-` 
+  width: 25px;
+`;
 export const Input = styled.input`
   background-color: #316282;
   border-radius: 3px;
@@ -91,11 +83,11 @@ export const Input = styled.input`
   }
 `;
 export const Lupa = styled.img`
-margin:0;
-width: 30px;
-height: 27px;
-` 
-export const DivInput=styled.div`
-display: flex;
-flex-wrap: nowrap;
-`
+  margin: 0;
+  width: 30px;
+  height: 27px;
+`;
+export const DivInput = styled.div`
+  display: flex;
+  flex-wrap: nowrap;
+`;

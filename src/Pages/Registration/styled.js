@@ -15,7 +15,6 @@ export const DivLeft = styled.div`
   background-position: -60em;
   background-size: contain;
   background-image: url("https://store.akamai.steamstatic.com/public/shared/images/joinsteam/acct_creation_bg.jpg");
-
 `;
 
 export const DivData = styled.div`
@@ -33,8 +32,6 @@ export const DivData = styled.div`
 
 export const Menu = styled.div`
   width: 100%;
-  
-
 `;
 export const Text = styled.p`
   font-size: 1.5em;
@@ -51,7 +48,6 @@ export const Form = styled.form`
 
   @media (max-width: 900px) {
     width: 100%;
- 
   }
 `;
 export const Label = styled.label`
@@ -111,18 +107,16 @@ export const TextPrivacidade = styled.p`
 
   @media (max-width: 510px) {
     white-space: normal;
-    width: 800%;  
-    
+    width: 800%;
   }
 `;
 export const DivCheckbox = styled.div`
-width: 270px;
+  width: 270px;
 `;
 export const SpanCheckbox = styled.p`
   font-weight: bold;
   padding-left: 0.5rem;
   margin-top: 0;
-
 `;
 export const CheckArea = styled.div`
   height: 77px;
